@@ -1,0 +1,36 @@
+.container { 
+  max-width: 400px; 
+  margin: 2rem auto; 
+  font-family: sans-serif; 
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.delete-btn { 
+  color: red; 
+  cursor: pointer; 
+  border: none; 
+  background: none; 
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  text-decoration: underline;
+}
